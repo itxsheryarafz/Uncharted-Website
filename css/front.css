@@ -1,0 +1,24 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic ;
+}
+body {
+	position: relative;
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+    background-image:url("https://www.unchartedthegame.com/wp/wp-content/uploads/2015/12/U4_MPBG_1080p2.jpg"); 
+    background-size: cover;
+}
+.unchart
+{
+	position: relative;
+	top:50%;
+
+}
+.unchart img{
+	position: relative;
+	height: 20%;
+	width:40%;
+	left:30%;
+}

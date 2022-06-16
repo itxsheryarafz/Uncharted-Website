@@ -1,0 +1,424 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic ;
+}
+body {
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+}
+header{
+	background-image: url("images/download.jpg");
+	height :100vh;
+	background-size: cover;
+	background-position: center; 
+}
+.main{
+top:100px;
+max-width: 1200px;
+margin: auto;
+
+
+}
+
+.title{
+
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+.unchart{
+
+	position: relative;
+	left:90px;
+}
+ul li
+{
+display :inline-block ;
+}
+
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: #000;
+
+};
+ul li.active a{
+	background-color: white;
+	color :#000 ;
+
+}
+.title{
+
+position: absolute;
+top:50%;
+left:50%;
+transform: translate(-50%,-50%);
+
+}
+.title h1{
+	
+}
+.power{
+color:white;
+	position: center;
+	font-size: 60px;
+	line-height: 65px;
+	text-shadow: rgba(0, 0, 0, 0.75) 2px -1px 8px;
+text-transform: uppercase;
+	font-family: Arial;
+    font-weight: 200;
+    margin: 0 0 0.5em;
+    padding: 0;
+
+}
+.image{
+
+	height: 40px;
+	width:50px;
+	position: relative;
+	left:500px;
+}
+.image1{
+bottom:5px;
+	position: relative;
+	left:510px;
+}
+.image2{
+bottom:15px;
+position: relative;
+left:1500px;
+}
+.header1{
+height: 40px;
+position: float;
+background: black;
+width: 2130px;
+
+}
+.button{
+
+
+ 	
+}
+button{
+
+  
+	padding:10px 80px;
+	border:none;
+	cusor:pointer;
+	margin:10px;
+	transaction:0.5s;
+	 border: 2px solid transparent;
+	 
+ 
+}
+button:hover{
+color:white;
+border-top-color: white;
+border-bottom-color: white;
+color:Maroon;
+background: white;
+line-height: 50px;
+box-sizing:border-box;
+background: linear -gradient(90deg ,#800000);
+border-radius: 30px;
+animation :animate 5s linear infinite;
+background-image : url("https://www.unchartedthegame.com/wp/wp-content/themes/uncharted/assets/images/button-lg.jpg"); 
+
+}
+
+@keyframes animate{
+
+0% {
+	background-position: 0%;
+}
+100%{
+
+	background-position: 400%;
+}
+
+}
+button:before{
+background: linear -gradient(90deg ,#800000);
+border-radius: 30px;
+filter:blur(20px);
+
+}
+.section{
+	position:relative;
+	width:100%;
+	height: 100vh;
+	display: flex;
+
+	align-items:center;
+	justify-content:center;
+
+}
+.section video{
+position: relative;
+	width: 2200px;
+}
+.section .main nav{
+	position: relative;
+ bottom:1200px;
+max-width: 1200px;
+margin: auto;
+}
+.section .main ul li
+{
+display :inline-block ;
+} 
+
+
+
+
+.section .main ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+.section .main ul li a:hover{
+	background-color: white;
+	color: #000;
+
+};
+.section .main ul li.active a{
+	background-color: white;
+	color :#000 ;
+
+}
+
+p{
+	z-index: 10000;
+	font-size: 100px;
+	text-align: center;
+	position: relative;
+	width:20%;
+	padding-top: 600px;
+	color: white;
+	font-family: 'Lato';
+	color:white;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+@keyframes slidy{
+	0%{
+		left: 0;
+	}
+
+	20%{
+		left: 0;
+	}
+
+	25%{
+		left: -100%;
+	}
+
+	45%{
+		left: -100%;
+	}
+
+	50%{
+		left: -200%;
+	}
+
+	70%{
+
+		left: -200%;
+	}
+
+	75%{
+		left: -300%;
+	}
+
+	95%{
+		left: -300%;
+	}
+
+	100%{
+		left: -400%;
+	}	
+}
+.slider{
+
+	overflow: hidden;
+background-image: url("https://www.unchartedthegame.com/wp/wp-content/uploads/2015/12/PLUNDER_SCREEN_12.jpg");
+}
+.slider figure p{
+
+	width: 100%;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 5s slidy infinite;
+}
+
+.sherry
+{
+	position: relative;
+	background-image: url("https://www.unchartedthegame.com/wp/wp-content/uploads/2015/06/Uncharted4_SITE_EXPLORE_PREORDER_ndc_1800x1045.jpg");
+	height: 1000px;
+	}
+.ps4
+{
+	bottom:500px;
+	padding: 50px;
+     background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 680px;
+    width:600px;
+    height:400px;
+   
+}	
+.ps4 center
+{
+	position: relative;
+	width:100px;
+	top:-40px;
+	left:280px;
+}
+.ps4 h1
+{
+	position: relative;
+	font-size: 20px;
+	font-family: Times;
+}
+.ps4 img{
+
+position: relative;
+width:300px;
+height: 300px;
+left:-30px;
+top: 20px;
+}
+.text p{
+	position: relative;
+	bottom:600px;
+	font-size: 70px;
+	font-family: Times;
+	left:700px;
+
+}
+.text h6
+{
+	position: relative;
+	bottom:580px;
+	font-size: 70px;
+	font-family: Times;
+	font-weight: 10px;
+	color:white;
+}
+.text h7
+{
+position: relative;
+	bottom:580px;
+	font-size: 70px;
+	font-family: Times;
+	left:-40px;
+	color:white;
+}	
+#footer {
+    background-color: #181818;
+    padding: 50px 0 40px;
+    z-index: 3;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1054px;
+
+}
+
+#footer .footer-social {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 40px;
+      font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.center-block {
+	padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .footer-logo {
+    max-width: 75%;
+}
+.text-center {
+    text-align: center;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#footer nav#footer-nav {
+    text-align: center;
+    margin-top: 25px;
+}
+#footer #logos-legal > .table-wrap > .table-cell > .table-wrap .table-cell {
+    text-align: center;
+    width: 50%;
+}
+#footer #logos-legal > .table-wrap > .table-cell > .table-wrap .table-cell {
+    text-align: center;
+    }
+.table-wrap {
+    display: table;
+    height: 20%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer .disclaimer {
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.4em;
+    color: #777;
+    margin: 20px auto 0;
+    max-width: 1030px;
+}

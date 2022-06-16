@@ -1,0 +1,277 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic ;
+}
+body {
+	position: relative;
+    font-family: 'helvetica', 'sans-serif';
+    margin: 0;
+    background-image:url("https://www.unchartedthegame.com/wp/wp-content/uploads/2015/04/Map_BG_Desktop.jpg"); 
+    width:1200px;
+    height: 3500px;
+}
+header{
+	background-image: url("images/download.jpg");
+	height :100vh;
+	background-size: cover;
+	background-position: center; 
+}
+.main{
+	position: relative;
+bottom:-20px;
+max-width: 1200%;
+margin: auto;
+left:370px;
+
+}
+.header1{
+height: 40px;
+position: float;
+background: black;
+width:1900px;
+
+}
+.image{
+
+	height: 40px;
+	width:50px;
+	position: relative;
+	left:500px;
+}
+.image1{
+bottom:5px;
+	position: relative;
+	left:510px;
+}
+.image2{
+bottom:15px;
+position: relative;
+left:1500px;
+}
+ul li
+{
+display :inline-block ;
+}
+
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: #000;
+
+};
+ul li.active a{
+	background-color: white;
+	color :#000 ;
+
+}
+.login
+{
+
+	right:1000px;
+	left:0px;
+}
+.Newsimg img 
+{
+position: relative;
+
+
+} 
+
+.ps4
+{
+	bottom:500px;
+	padding: 50px;
+     background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 380px;
+    width:1200px;
+    height:900px;
+    top:-700px;
+   
+}	
+.ps4 p{
+
+	position: relative;
+	font-size: 50px;
+	font-style: Times;
+	font-weight: 10px;
+	font-family: Times;
+	color:white;
+}
+.ps4 i{
+	position: relative;
+	 font-size: 15px;
+	 color: white; 
+	 font-weight: 10px;
+	 font-style: times;
+}
+.paragraph h7{
+
+	position: relative;
+	font size:2px;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	top:-370px;
+	left:400px;
+}
+.ps4 img{
+
+	position: relative;
+	height: 400px;
+	width:700px;
+	bottom: 300px;
+	left:450px;
+}
+.paragraph2 h7{
+
+	position: relative;
+	font size:2px;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	left:450px;
+	bottom: 270px;
+}
+.ps42
+{
+	bottom:500px;
+	padding: 50px;
+     background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 380px;
+    width:1200px;
+    height:900px;
+    top:-650px;
+}
+.ps42 p{
+
+	position: relative;
+    font-size: 50px;
+	font-style: Times;
+	font-weight: 10px;
+	font-family: Times;
+	color:white;
+
+}
+.ps42 i{
+	position: relative;
+	 font-size: 15px;
+	 color: white; 
+	 font-weight: 10px;
+	 font-style: times;
+}
+.paragraph3 h7{
+
+	position: relative;
+	font size:2px;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	top:-370px;
+	left:420px;
+}
+.ps42 img{
+
+	position: relative;
+	height: 500px;
+	width:700px;
+	bottom: 300px;
+	left:400px;
+}
+.paragraph4 h7
+{
+	position: relative;
+	font size:2px;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	top:-270px;
+	left:420px;
+}
+.ps43
+{
+	bottom:500px;
+	padding: 50px;
+     background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 380px;
+    width:1200px;
+    height:1000px;
+    top:-600px;
+}
+.ps43 p{
+
+position: relative;
+	font-size: 50px;
+	font-style: Times;
+	font-weight: 10px;
+	font-family: Times;
+	color:white;
+	right:40px;
+
+}
+.ps43 i {
+
+	position: relative;
+	 font-size: 17px;
+	 color: white; 
+	 font-weight: 10px;
+	 font-style: times;
+}
+.ps43 a
+{
+	position: relative;
+	text-decoration: none;
+  color:grey;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  bottom:470px;
+  right:50px;
+}
+.ps43 a:hover{
+	background-color: white;
+	color: #000;
+}
+.ps43 img{
+
+	
+	position: relative;
+	height: 500px;
+	width:700px;
+	bottom: 400px;
+	left:300px;
+
+}
+.paragraph5 h7
+{
+	position: relative;
+	font size:2px;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	top:-370px;
+	left:420px;
+}
+.paragraph5 a{
+	position: relative;
+	color:white;
+	 font-weight: 10px;
+	font-style: times;
+	top: 40px;
+	left:0px;
+}

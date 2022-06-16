@@ -1,0 +1,362 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family: Century Gothic ;
+}
+body
+{
+	position: relative;
+	width:1000px;
+    height: 3500px;    
+}
+section .survival
+{
+	position: relative;
+	background-position: cover;
+	width: 2000px;
+	height:1200px;
+
+}
+.Survival2
+{
+	position: relative;
+	bottom:900px;
+	left:600px;
+}
+
+.main{
+	position: relative;
+top:-1180px ;
+max-width: 1200%;
+margin: auto;
+left:470px;
+
+}
+.header1{
+height: 40px;
+position: float;
+background: black;
+width: 2000px;
+
+}
+.image{
+
+	height: 40px;
+	width:50px;
+	position: relative;
+	left:500px;
+}
+.image1{
+bottom:5px;
+	position: relative;
+	left:510px;
+}
+.image2{
+bottom:15px;
+position: relative;
+left:1500px;
+}
+ul li
+{
+display :inline-block ;
+}
+
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: white;
+	color: #000;
+
+};
+ul li.active a{
+	background-color: white;
+	color :#000 ;
+
+}
+.login
+{
+
+	right:1000px;
+	left:0px;
+}
+.Survival3{
+
+	position: relative;
+	bottom: 360px;
+
+}
+.Surivalimage{
+
+	position: relative;
+	bottom: 600px;
+	left:200px;
+}
+.Survival3 h7{
+
+	position: relative;
+	font-size: 50px;
+	font-style: "Lato";
+	font-weight: -10px;
+	font-family: "Lato";
+	color:white;
+	bottom: 830px;
+	left:1000px;
+}
+.Survival3 p{
+
+position: relative;
+color:white;
+bottom: 830px;
+	left:980px;
+	font-style: Arial;
+	font-family: Arial;
+	font-size: 20px;
+
+}
+.Survival4 {
+	position: relative;
+	bottom: 940px;
+}
+.Survival4 h7{
+	position: relative;
+	font-size: 70px;
+	font-style: "Lato";
+	font-weight: -10px;
+	font-family: "Lato";
+	color:white;
+	bottom: 530px;
+	left:1000px;
+
+}
+.Survival4 p{
+
+	position: relative;
+color:white;
+bottom: 500px;
+	left:980px;
+	font-style: Arial;
+	font-family: Arial;
+	font-size: 20px;
+}
+.Survival5
+{
+	position: relative;
+	bottom:1310px;
+}
+.Survial5image {
+	position: relative;
+	bottom: 680px;
+	left: 500px;
+}
+.Survival5 h7
+{
+	position: relative;
+	font-size: 60px;
+	font-style: "Lato";
+	font-weight: -10px;
+	font-family: "Lato";
+	color:white;
+	bottom: 680px;
+	left: 360px;
+}
+.Survival5 p
+{
+	position: relative;
+color:white;
+bottom: 650px;
+	left:360px;
+	font-style: Arial;
+	font-family: Arial;
+	font-size: 20px;
+
+}
+.Survival6
+{
+	position: relative;
+	left:10px;
+	bottom: 1710px;
+
+}
+.Survival6 center{
+
+position: relative;
+color:white;
+bottom: 1050px;
+	left:500px;
+	font-style: Times;
+	font-family: Times;
+	font-size: 50px;
+
+}
+.Survival6 p {
+
+position: relative;
+color:white;
+bottom: 1050px;
+	left:700px;
+	font-style: Times;
+	font-family: Times;
+	font-size: 50px;
+
+}
+.ps4
+{
+	bottom:500px;
+	padding: 50px;
+     background: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 650px;
+    width:600px;
+    height:300px;
+    top:-900px;
+   
+}	
+button{
+
+  
+	padding:10px 80px;
+	border:none;
+	cusor:pointer;
+	margin:10px;
+	transaction:0.5s;
+	 border: 2px solid transparent;
+	 position: relative;
+	 bottom:-950px;
+	 right:350px;
+	 
+ 
+}
+button:hover{
+color:white;
+border-top-color: white;
+border-bottom-color: white;
+color:Maroon;
+background: white;
+line-height: 50px;
+box-sizing:border-box;
+background: linear -gradient(90deg ,#800000);
+border-radius: 30px;
+animation :animate 5s linear infinite;
+background-image : url("https://www.unchartedthegame.com/wp/wp-content/themes/uncharted/assets/images/button-lg.jpg"); 
+
+}
+
+@keyframes animate{
+
+0% {
+	background-position: 0%;
+}
+100%{
+
+	background-position: 400%;
+}
+
+}
+button:before{
+background: linear -gradient(90deg ,#800000);
+border-radius: 30px;
+filter:blur(20px);
+
+}
+.ps4 p{
+
+position: relative;
+color:white;
+bottom: 120px;
+	left:270px;
+	font-style: Arial;
+	font-family: Arial;
+	font-size: 20px;
+
+}
+#footer {
+    position: relative;
+    background-color: #181818;
+    padding: 50px 0 40px;
+    z-index: 3;
+    width:2000px;
+    top:-2180px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 2054px;
+
+}
+
+#footer .footer-social {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 40px;
+      font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.center-block {
+	padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer .footer-logo {
+    max-width: 75%;
+}
+.text-center {
+    text-align: center;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#footer nav#footer-nav {
+    text-align: center;
+    margin-top: 25px;
+}
+#footer #logos-legal > .table-wrap > .table-cell > .table-wrap .table-cell {
+    text-align: center;
+    width: 50%;
+}
+#footer #logos-legal > .table-wrap > .table-cell > .table-wrap .table-cell {
+    text-align: center;
+    }
+.table-wrap {
+    display: table;
+    height: 20%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+#footer .disclaimer {
+    text-align: center;
+    font-size: 11px;
+    line-height: 1.4em;
+    color: #777;
+    margin: 20px auto 0;
+    max-width: 2030px;
+}

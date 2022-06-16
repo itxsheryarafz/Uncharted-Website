@@ -1,0 +1,134 @@
+body{
+	margin: 0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+.header1{
+height: 40px;
+position: float;
+background: black;
+width: 100%;
+
+}
+.image{
+
+	height: 40px;
+	width:50px;
+	position: relative;
+	left:500px;
+}
+.image1{
+bottom:5px;
+	position: relative;
+	left:510px;
+}
+.image2{
+bottom:15px;
+position: relative;
+left:1500px;
+}
+.box
+{
+	bottom:500px;
+	padding: 50px;
+     background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 480px;
+    width:800px;
+    height:400px;
+    top:70px;
+   
+}
+.box h1{
+	position: relative;
+
+
+}
+a{
+	text-decoration: none;
+}
+button{
+	border-color: #2ecc71;
+	background-color: #2ecc71;
+	display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline: none;
+border-radius: 24px;
+}
+.box textarea{
+	background: #f2f2f2;
+	width: 500px;
+	font-size: 20px;
+	margin: auto;
+}
+
+.box input[type="submit"]
+{
+		border-color: #2ecc71;
+	background-color: #2ecc71;
+	display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline: none;
+border-radius: 24px;
+}
+
+.box1
+{
+	bottom:500px;
+	padding: 50px;
+     background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 480px;
+    width:800px;
+    height:300px;
+    top:70px;
+   
+}
+.box1 input[type="submit"]
+{
+	border-color: #2ecc71;
+	background-color: #2ecc71;
+	display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline: none;
+border-radius: 24px;
+}
+
+.box2
+{
+	bottom:500px;
+	padding: 50px;
+     background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0,.2);
+    margin-bottom: 30px;
+    position: relative;
+    left: 480px;
+    width:800px;
+    height:700px;
+    top:70px;
+}
+.box2 input[type="submit"]{
+	border-color: #2ecc71;
+	background-color: #2ecc71;
+	display: block;
+margin: 20px auto;
+text-align: center;
+border: 2px solid #2ecc71;
+padding: 14px 40px;
+outline: none;
+border-radius: 24px;
+}
